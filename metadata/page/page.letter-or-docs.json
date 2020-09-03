@@ -5,7 +5,38 @@
     {
       "_id": "page.letter-or-docs--text.auto_name__8",
       "_type": "text",
+      "label": "Building and street",
       "name": "auto_name__8"
+    },
+    {
+      "_id": "page.letter-or-docs--text.auto_name__18",
+      "_type": "text",
+      "label": "Building and street line 2",
+      "name": "auto_name__18",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "_id": "page.letter-or-docs--text.auto_name__19",
+      "_type": "text",
+      "label": "Town or city",
+      "name": "auto_name__19"
+    },
+    {
+      "_id": "page.letter-or-docs--text.auto_name__20",
+      "_type": "text",
+      "label": "County",
+      "name": "auto_name__20",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "_id": "page.letter-or-docs--text.auto_name__21",
+      "_type": "text",
+      "label": "Post code",
+      "name": "auto_name__21"
     }
   ],
   "heading": "Where did you send your letter or documents",

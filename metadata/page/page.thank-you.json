@@ -1,7 +1,7 @@
 {
   "_id": "page.thank-you",
   "_type": "page.confirmation",
-  "body": "Thank you for contacting us",
+  "body": "Thank you for contacting us\r\n\r\n[Make a complaint](https://hmcts-complaints.dev.form.service.justice.gov.uk/).",
   "heading": "Thank you",
   "url": "thank-you"
 }

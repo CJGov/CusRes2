@@ -16,7 +16,10 @@
         }
       ],
       "label": "Which HM Courts and Tribunals page did you access?",
-      "name": "auto_name__9"
+      "name": "auto_name__9",
+      "validation": {
+        "required": false
+      }
     }
   ],
   "show": {

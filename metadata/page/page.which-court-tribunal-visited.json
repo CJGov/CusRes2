@@ -6,7 +6,10 @@
       "_id": "page.which-court-tribunal-visited--autocomplete.auto_name__4",
       "_type": "autocomplete",
       "label": "Which court or tribunal did you visit?",
-      "name": "auto_name__4"
+      "name": "auto_name__4",
+      "validation": {
+        "required": false
+      }
     }
   ],
   "show": {
