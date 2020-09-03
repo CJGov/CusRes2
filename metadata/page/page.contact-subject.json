@@ -1,0 +1,26 @@
+{
+  "_id": "page.contact-subject",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.contact-subject--checkboxes",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.contact-subject--checkboxes--checkbox.auto_name__11",
+          "_type": "checkbox",
+          "label": "Facilities",
+          "name": "auto_name__11"
+        },
+        {
+          "_id": "page.contact-subject--checkboxes--checkbox.auto_name__12",
+          "_type": "checkbox",
+          "label": "Staff",
+          "name": "auto_name__12"
+        }
+      ],
+      "legend": "What do you want to tell us about?"
+    }
+  ],
+  "url": "contact-subject"
+}

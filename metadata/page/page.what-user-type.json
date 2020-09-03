@@ -1,0 +1,21 @@
+{
+  "_id": "page.what-user-type",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.what-user-type--radios.auto_name__10",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.what-user-type--radios.auto_name__10--radio.auto_value__3",
+          "_type": "radio",
+          "label": "I'm a witness",
+          "value": "auto_value__3"
+        }
+      ],
+      "legend": "Why have you been in contact with us?",
+      "name": "auto_name__10"
+    }
+  ],
+  "url": "what-user-type"
+}

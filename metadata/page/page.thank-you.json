@@ -1,0 +1,7 @@
+{
+  "_id": "page.thank-you",
+  "_type": "page.confirmation",
+  "body": "Thank you for contacting us",
+  "heading": "Thank you",
+  "url": "thank-you"
+}

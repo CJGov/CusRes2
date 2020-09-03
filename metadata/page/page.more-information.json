@@ -1,0 +1,14 @@
+{
+  "_id": "page.more-information",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.more-information--textarea.auto_name__13",
+      "_type": "textarea",
+      "hint": "This covers all the areas you’ve just highlighted. The more details you can give, the better.",
+      "label": "Please give us more information",
+      "name": "auto_name__13"
+    }
+  ],
+  "url": "more-information"
+}

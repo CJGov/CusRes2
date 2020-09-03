@@ -1,0 +1,50 @@
+{
+  "_id": "page.who-phoned",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.who-phoned--radios.auto_name__5",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.who-phoned--radios.auto_name__5--radio.auto_value__3",
+          "_type": "radio",
+          "label": "Money",
+          "value": "auto_value__3"
+        },
+        {
+          "_id": "page.who-phoned--radios.auto_name__5--radio.auto_value__3--2",
+          "_type": "radio",
+          "label": "Probate",
+          "value": "auto_value__3"
+        },
+        {
+          "_id": "page.who-phoned--radios.auto_name__5--radio.auto_value__3--3",
+          "_type": "radio",
+          "label": "Children and parenting",
+          "value": "auto_value__3"
+        },
+        {
+          "_id": "page.who-phoned--radios.auto_name__5--radio.auto_value__3--4",
+          "_type": "radio",
+          "label": "Immigration and asylum",
+          "value": "auto_value__3"
+        },
+        {
+          "_id": "page.who-phoned--radios.auto_name__5--radio.auto_value__3--5",
+          "_type": "radio",
+          "label": "I spoke to a court or tribunal",
+          "value": "auto_value__3"
+        }
+      ],
+      "legend": "What did you phone us about?",
+      "name": "auto_name__5"
+    }
+  ],
+  "show": {
+    "identifier": "auto_name__2",
+    "operator": "is",
+    "value": "auto_value__5"
+  },
+  "url": "who-phoned"
+}

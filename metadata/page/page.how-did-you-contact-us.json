@@ -1,0 +1,65 @@
+{
+  "_id": "page.how-did-you-contact-us",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.how-did-you-contact-us--radios.auto_name__2",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.how-did-you-contact-us--radios.auto_name__2--radio.auto_value__4",
+          "_type": "radio",
+          "label": "Visited",
+          "value": "auto_value__4"
+        },
+        {
+          "_id": "page.how-did-you-contact-us--radios.auto_name__2--radio.auto_value__5",
+          "_type": "radio",
+          "label": "Phone",
+          "value": "auto_value__5"
+        },
+        {
+          "_id": "page.how-did-you-contact-us--radios.auto_name__2--radio.auto_value__6",
+          "_type": "radio",
+          "label": "Email",
+          "value": "auto_value__6"
+        },
+        {
+          "_id": "page.how-did-you-contact-us--radios.auto_name__2--radio.auto_value__7",
+          "_type": "radio",
+          "label": "Letter",
+          "value": "auto_value__7"
+        },
+        {
+          "_id": "page.how-did-you-contact-us--radios.auto_name__2--radio.auto_value__8",
+          "_type": "radio",
+          "label": "Online page",
+          "value": "auto_value__8"
+        }
+      ],
+      "legend": "How did you contact us?",
+      "name": "auto_name__2"
+    }
+  ],
+  "enableSteps": true,
+  "show": {
+    "identifier": "auto_name__1",
+    "negated": true,
+    "operator": "is",
+    "value": "auto_value__3"
+  },
+  "steps": [
+    "page.which-court-tribunal-visited",
+    "page.who-phoned",
+    "page.who-emailed",
+    "page.letter-or-docs",
+    "page.hmcts-online-page",
+    "page.what-user-type",
+    "page.contact-subject",
+    "page.more-information",
+    "page.someone-special",
+    "page.customer-name",
+    "page.check-your-answers"
+  ],
+  "url": "how-did-you-contact-us"
+}
