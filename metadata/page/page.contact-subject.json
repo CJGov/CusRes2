@@ -5,22 +5,50 @@
     {
       "_id": "page.contact-subject--checkboxes",
       "_type": "checkboxes",
+      "hint": "Select all that apply",
       "items": [
         {
           "_id": "page.contact-subject--checkboxes--checkbox.auto_name__11",
           "_type": "checkbox",
+          "hint": "For example, the toilets, heating, wifi or disabled access.",
           "label": "Facilities",
           "name": "auto_name__11"
         },
         {
           "_id": "page.contact-subject--checkboxes--checkbox.auto_name__12",
           "_type": "checkbox",
+          "hint": "How did we do?",
           "label": "Staff",
           "name": "auto_name__12"
+        },
+        {
+          "_id": "page.contact-subject--checkboxes--checkbox.auto_name__25",
+          "_type": "checkbox",
+          "hint": "How were you treated at main security, did you feel safe in the building?",
+          "label": "Security and safety",
+          "name": "auto_name__25"
+        },
+        {
+          "_id": "page.contact-subject--checkboxes--checkbox.auto_name__26",
+          "_type": "checkbox",
+          "hint": "For example, signs, maps and leaflets.",
+          "label": "Information and guidance",
+          "name": "auto_name__26"
+        },
+        {
+          "_id": "page.contact-subject--checkboxes--checkbox.auto_name__27",
+          "_type": "checkbox",
+          "label": "Something else",
+          "name": "auto_name__27"
         }
       ],
-      "legend": "What do you want to tell us about?"
+      "legend": "What do you want to tell us about your visit?"
     }
   ],
+  "show": {
+    "identifier": "auto_name__2",
+    "operator": "is",
+    "value": "auto_value__4"
+  },
   "url": "contact-subject"
 }

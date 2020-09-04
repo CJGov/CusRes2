@@ -34,9 +34,9 @@
     }
   ],
   "show": {
-    "identifier": "auto_name__2",
+    "identifier": "auto_name__28",
     "operator": "is",
-    "value": "auto_value__6"
+    "value": "auto_value__4"
   },
   "url": "who-emailed"
 }

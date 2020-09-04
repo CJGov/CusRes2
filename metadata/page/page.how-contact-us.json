@@ -1,0 +1,66 @@
+{
+  "_id": "page.how-contact-us",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.how-contact-us--radios.auto_name__28",
+      "_type": "radios",
+      "items": [
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.how-contact-us--radios.auto_name__28--radio.auto_value__3",
+          "_type": "radio",
+          "label": "A phone call",
+          "value": "auto_value__3"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.how-contact-us--radios.auto_name__28--radio.auto_value__4",
+          "_type": "radio",
+          "label": "An email conversation",
+          "value": "auto_value__4"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.how-contact-us--radios.auto_name__28--radio.auto_value__5",
+          "_type": "radio",
+          "label": "A letter or document I sent you",
+          "value": "auto_value__5"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.how-contact-us--radios.auto_name__28--radio.auto_value__6",
+          "_type": "radio",
+          "label": "It's not listed here",
+          "value": "auto_value__6"
+        }
+      ],
+      "legend": "What type of contact did you have with us?",
+      "name": "auto_name__28"
+    }
+  ],
+  "enableSteps": true,
+  "show": {
+    "identifier": "auto_name__2",
+    "operator": "is",
+    "value": "auto_value__5"
+  },
+  "steps": [
+    "page.who-phoned",
+    "page.money",
+    "page.death-divorce-civil-partnership",
+    "page.who-emailed",
+    "page.letter-or-docs",
+    "page.not-listed-contact-type",
+    "page.know_address"
+  ],
+  "url": "how-contact-us"
+}

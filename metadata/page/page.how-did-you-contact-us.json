@@ -7,37 +7,34 @@
       "_type": "radios",
       "items": [
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.how-did-you-contact-us--radios.auto_name__2--radio.auto_value__4",
           "_type": "radio",
-          "label": "Visited",
+          "conditionalComponent": {
+            "_id": "page.how-did-you-contact-us--radios.auto_name__2--radio.auto_value__4--autocomplete.auto_name__29",
+            "_type": "autocomplete",
+            "label": "Which court or tribunal did you visit?",
+            "name": "auto_name__29",
+            "validation": {
+              "required": false
+            }
+          },
+          "label": "Yes",
           "value": "auto_value__4"
         },
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.how-did-you-contact-us--radios.auto_name__2--radio.auto_value__5",
           "_type": "radio",
-          "label": "Phone",
+          "label": "No",
           "value": "auto_value__5"
-        },
-        {
-          "_id": "page.how-did-you-contact-us--radios.auto_name__2--radio.auto_value__6",
-          "_type": "radio",
-          "label": "Email",
-          "value": "auto_value__6"
-        },
-        {
-          "_id": "page.how-did-you-contact-us--radios.auto_name__2--radio.auto_value__7",
-          "_type": "radio",
-          "label": "Letter",
-          "value": "auto_value__7"
-        },
-        {
-          "_id": "page.how-did-you-contact-us--radios.auto_name__2--radio.auto_value__8",
-          "_type": "radio",
-          "label": "Online page",
-          "value": "auto_value__8"
         }
       ],
-      "legend": "How did you contact us?",
+      "legend": "Are you contacting us about a visit to a court or tribunal?",
       "name": "auto_name__2"
     }
   ],
@@ -46,14 +43,11 @@
     "identifier": "auto_name__1",
     "negated": true,
     "operator": "is",
-    "value": "auto_value__3"
+    "value": "complaint"
   },
   "steps": [
-    "page.which-court-tribunal-visited",
-    "page.who-phoned",
-    "page.who-emailed",
+    "page.how-contact-us",
     "page.letter-or-docs",
-    "page.hmcts-online-page",
     "page.what-user-type",
     "page.contact-subject",
     "page.more-information",

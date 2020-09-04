@@ -10,31 +10,49 @@
           "_id": "page.who-phoned--radios.auto_name__5--radio.auto_value__3",
           "_type": "radio",
           "label": "Money",
-          "value": "auto_value__3"
+          "value": "money"
         },
         {
           "_id": "page.who-phoned--radios.auto_name__5--radio.auto_value__3--2",
           "_type": "radio",
-          "label": "Probate",
-          "value": "auto_value__3"
+          "label": "Deaths, marriages or civil partnerships",
+          "value": "deaths_marriages_civil_partnerships"
         },
         {
           "_id": "page.who-phoned--radios.auto_name__5--radio.auto_value__3--3",
           "_type": "radio",
-          "label": "Children and parenting",
-          "value": "auto_value__3"
+          "label": "Childcare and parenting",
+          "value": "childcare_and_parenting"
         },
         {
           "_id": "page.who-phoned--radios.auto_name__5--radio.auto_value__3--4",
           "_type": "radio",
-          "label": "Immigration and asylum",
-          "value": "auto_value__3"
+          "label": "Harm and abuse",
+          "value": "harm_and_abuse"
         },
         {
           "_id": "page.who-phoned--radios.auto_name__5--radio.auto_value__3--5",
           "_type": "radio",
+          "label": "Immigration and asylum",
+          "value": "immigration_and_asylum"
+        },
+        {
+          "_id": "page.who-phoned--radios.auto_name__5--radio.auto_value__3--6",
+          "_type": "radio",
+          "label": "Crime",
+          "value": "crime"
+        },
+        {
+          "_id": "page.who-phoned--radios.auto_name__5--radio.auto_value__3--7",
+          "_type": "radio",
           "label": "I spoke to a court or tribunal",
-          "value": "auto_value__3"
+          "value": "spoke_to_court_or_tribunal"
+        },
+        {
+          "_id": "page.who-phoned--radios.auto_name__5--radio.auto_value__3--8",
+          "_type": "radio",
+          "label": "It is not listed here",
+          "value": "not listed"
         }
       ],
       "legend": "What did you phone us about?",
@@ -42,9 +60,9 @@
     }
   ],
   "show": {
-    "identifier": "auto_name__2",
+    "identifier": "auto_name__28",
     "operator": "is",
-    "value": "auto_value__5"
+    "value": "auto_value__3"
   },
   "url": "who-phoned"
 }

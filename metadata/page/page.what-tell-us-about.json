@@ -10,19 +10,19 @@
           "_id": "page.what-tell-us-about--radios.auto_name__1--radio.auto_value__1",
           "_type": "radio",
           "label": "I'm happy",
-          "value": "auto_value__1"
+          "value": "happy"
         },
         {
           "_id": "page.what-tell-us-about--radios.auto_name__1--radio.auto_value__2",
           "_type": "radio",
           "label": "A suggestion",
-          "value": "auto_value__2"
+          "value": "suggestion"
         },
         {
           "_id": "page.what-tell-us-about--radios.auto_name__1--radio.auto_value__3",
           "_type": "radio",
           "label": "A complaint",
-          "value": "auto_value__3"
+          "value": "complaint"
         }
       ],
       "legend": "What do you want to tell us about?",
