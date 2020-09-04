@@ -47,12 +47,12 @@
   },
   "steps": [
     "page.how-contact-us",
-    "page.letter-or-docs",
     "page.what-user-type",
     "page.contact-subject",
     "page.more-information",
     "page.someone-special",
-    "page.customer-name"
+    "page.customer-name",
+    "page.what-area-tell-us-about"
   ],
   "url": "how-did-you-contact-us"
 }
