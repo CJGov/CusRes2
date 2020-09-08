@@ -1,0 +1,49 @@
+{
+  "_id": "page.online-page",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.online-page--autocomplete.auto_name__39",
+      "_type": "autocomplete",
+      "items": [
+        {
+          "_id": "page.online-page--autocomplete.auto_name__39--option",
+          "_type": "option",
+          "value": "HMCTS Home page"
+        },
+        {
+          "_id": "page.online-page--autocomplete.auto_name__39--option--2",
+          "_type": "option",
+          "value": "Another page"
+        }
+      ],
+      "label": "Select the page you want to tell us about?",
+      "name": "auto_name__39",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "_id": "page.online-page--content",
+      "_type": "content",
+      "html": "or"
+    },
+    {
+      "_id": "page.online-page--text.auto_name__40",
+      "_type": "text",
+      "hint": "Copy the url from the page you want to tell us about or enter the page name.",
+      "label": "Enter a description of the page or the url",
+      "name": "auto_name__40",
+      "validation": {
+        "required": false
+      }
+    }
+  ],
+  "heading": "Which page do you want to tell us about?",
+  "show": {
+    "identifier": "auto_name__33",
+    "operator": "is",
+    "value": "auto_value__4"
+  },
+  "url": "online-page"
+}

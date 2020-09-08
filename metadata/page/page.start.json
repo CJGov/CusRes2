@@ -6,8 +6,14 @@
   "lede": "We'd like you to tell us how we're doing",
   "steps": [
     "page.what-tell-us-about",
-    "page.how-did-you-contact-us",
     "page.complaint-start",
+    "page.contact-visit",
+    "page.online-service-or-page",
+    "page.how-contact-us",
+    "page.more-information",
+    "page.what-user-type",
+    "page.someone-special",
+    "page.customer-name",
     "page.check-your-answers",
     "page.thank-you"
   ],

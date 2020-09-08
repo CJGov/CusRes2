@@ -5,50 +5,66 @@
     {
       "_id": "page.who-phoned--radios.auto_name__5",
       "_type": "radios",
+      "hint": "Under construction - this page will identify which service centre the customer phoned",
       "items": [
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.who-phoned--radios.auto_name__5--radio.auto_value__3",
           "_type": "radio",
           "label": "Money",
           "value": "money"
         },
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.who-phoned--radios.auto_name__5--radio.auto_value__3--2",
           "_type": "radio",
           "label": "Deaths, marriages or civil partnerships",
           "value": "deaths_marriages_civil_partnerships"
         },
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.who-phoned--radios.auto_name__5--radio.auto_value__3--3",
           "_type": "radio",
           "label": "Childcare and parenting",
           "value": "childcare_and_parenting"
         },
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.who-phoned--radios.auto_name__5--radio.auto_value__3--4",
           "_type": "radio",
           "label": "Harm and abuse",
           "value": "harm_and_abuse"
         },
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.who-phoned--radios.auto_name__5--radio.auto_value__3--5",
           "_type": "radio",
           "label": "Immigration and asylum",
           "value": "immigration_and_asylum"
         },
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.who-phoned--radios.auto_name__5--radio.auto_value__3--6",
           "_type": "radio",
           "label": "Crime",
           "value": "crime"
         },
         {
-          "_id": "page.who-phoned--radios.auto_name__5--radio.auto_value__3--7",
-          "_type": "radio",
-          "label": "I spoke to a court or tribunal",
-          "value": "spoke_to_court_or_tribunal"
-        },
-        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.who-phoned--radios.auto_name__5--radio.auto_value__3--8",
           "_type": "radio",
           "label": "It is not listed here",
@@ -60,9 +76,9 @@
     }
   ],
   "show": {
-    "identifier": "auto_name__28",
+    "identifier": "auto_name__34",
     "operator": "is",
-    "value": "auto_value__3"
+    "value": "auto_value__4"
   },
   "url": "who-phoned"
 }

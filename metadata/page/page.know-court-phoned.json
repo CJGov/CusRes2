@@ -1,0 +1,49 @@
+{
+  "_id": "page.know-court-phoned",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.know-court-phoned--radios.auto_name__34",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.know-court-phoned--radios.auto_name__34--radio.auto_value__2",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.know-court-phoned--radios.auto_name__34--radio.auto_value__2--autocomplete.auto_name__35",
+            "_type": "autocomplete",
+            "hint": "",
+            "label": "Enter the court you phoned",
+            "name": "auto_name__35",
+            "validation": {
+              "required": false
+            }
+          },
+          "label": "Yes",
+          "value": "auto_value__2"
+        },
+        {
+          "_id": "page.know-court-phoned--radios.auto_name__34--radio.auto_value__4",
+          "_type": "radio",
+          "hint": "You don't know or don't remember which court you phoned.",
+          "label": "No",
+          "value": "auto_value__4"
+        }
+      ],
+      "legend": "Do you know which court or tribunal you phoned?",
+      "name": "auto_name__34"
+    }
+  ],
+  "enableSteps": true,
+  "show": {
+    "identifier": "auto_name__28",
+    "operator": "is",
+    "value": "auto_value__3"
+  },
+  "steps": [
+    "page.who-phoned",
+    "page.money",
+    "page.death-divorce-civil-partnership"
+  ],
+  "url": "know-court-phoned"
+}

@@ -49,18 +49,29 @@
   ],
   "enableSteps": true,
   "show": {
-    "identifier": "auto_name__2",
-    "operator": "is",
-    "value": "auto_value__5"
+    "all": [
+      {
+        "identifier": "auto_name__1",
+        "negated": true,
+        "operator": "is",
+        "value": "complaint"
+      },
+      {
+        "identifier": "auto_name__2",
+        "operator": "is",
+        "value": "auto_value__5"
+      },
+      {
+        "identifier": "auto_name__33",
+        "operator": "is",
+        "value": "auto_value__5"
+      }
+    ]
   },
   "steps": [
-    "page.who-phoned",
-    "page.money",
-    "page.death-divorce-civil-partnership",
-    "page.who-emailed",
-    "page.letter-or-docs",
-    "page.not-listed-contact-type",
-    "page.know_address"
+    "page.know-court-phoned",
+    "page.know_address",
+    "page.email-court"
   ],
   "url": "how-contact-us"
 }

@@ -23,10 +23,14 @@
       "name": "auto_name__32"
     }
   ],
+  "enableSteps": true,
   "show": {
     "identifier": "auto_name__28",
     "operator": "is",
     "value": "auto_value__5"
   },
+  "steps": [
+    "page.letter-or-docs"
+  ],
   "url": "know_address"
 }
