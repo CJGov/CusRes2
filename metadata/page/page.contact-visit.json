@@ -45,6 +45,8 @@
     "operator": "is",
     "value": "complaint"
   },
-  "steps": [],
+  "steps": [
+    "page.visit-contact-person"
+  ],
   "url": "contact-visit"
 }

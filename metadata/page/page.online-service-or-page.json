@@ -43,6 +43,11 @@
         "identifier": "auto_name__2",
         "operator": "is",
         "value": "auto_value__5"
+      },
+      {
+        "identifier": "auto_name__28",
+        "operator": "is",
+        "value": "auto_value__6"
       }
     ]
   },

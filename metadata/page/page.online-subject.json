@@ -5,19 +5,18 @@
     {
       "_id": "page.online-subject--checkboxes",
       "_type": "checkboxes",
-      "hint": "Need content designer to make these categories customer friendly",
       "items": [
         {
           "_id": "page.online-subject--checkboxes--checkbox.auto_name__4",
           "_type": "checkbox",
-          "hint": "If you have a disability is the page or service accessible",
+          "hint": "If you have a disability, is the page or service accessible",
           "label": "Accessibility",
           "name": "auto_name__4"
         },
         {
           "_id": "page.online-subject--checkboxes--checkbox.auto_name__30",
           "_type": "checkbox",
-          "hint": "Was the page or service easy to use",
+          "hint": "Was the page or service easy to use?",
           "label": "Usability",
           "name": "auto_name__30"
         },
@@ -31,7 +30,7 @@
         {
           "_id": "page.online-subject--checkboxes--checkbox.auto_name__42",
           "_type": "checkbox",
-          "hint": "The ease of use of the service or page",
+          "hint": "The time taken to complete your task",
           "label": "Efficiency",
           "name": "auto_name__42"
         },
@@ -52,6 +51,11 @@
       "legend": "What do you want to tell us about the online service or page"
     }
   ],
-  "show": false,
+  "show": {
+    "identifier": "auto_name__33",
+    "negated": true,
+    "operator": "is",
+    "value": "auto_value__5"
+  },
   "url": "online-subject"
 }
