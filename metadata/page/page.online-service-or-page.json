@@ -7,43 +7,32 @@
       "_type": "radios",
       "items": [
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.online-service-or-page--radios.auto_name__33--radio.auto_value__3",
           "_type": "radio",
           "hint": "e.g. Money claims, probate or divorce",
-          "label": "Yes, an online service",
+          "label": "Yes",
           "value": "auto_value__3"
         },
         {
-          "_id": "page.online-service-or-page--radios.auto_name__33--radio.auto_value__3--2",
-          "_type": "radio",
-          "label": "Yes, an HMCTS web page",
-          "value": "auto_value__4"
-        },
-        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.online-service-or-page--radios.auto_name__33--radio.auto_value__3--3",
           "_type": "radio",
-          "label": "No, I am not contacting you about an online service or page",
+          "label": "No",
           "value": "auto_value__5"
         }
       ],
-      "legend": "Are you contacting us about using an online service or an HM Courts and Tribunals web page?",
+      "legend": "Are you contacting us about using an online service?",
       "name": "auto_name__33"
     }
   ],
   "enableSteps": true,
   "show": {
     "all": [
-      {
-        "identifier": "auto_name__1",
-        "negated": true,
-        "operator": "is",
-        "value": "complaint"
-      },
-      {
-        "identifier": "auto_name__2",
-        "operator": "is",
-        "value": "auto_value__5"
-      },
       {
         "identifier": "auto_name__28",
         "operator": "is",
@@ -52,9 +41,7 @@
     ]
   },
   "steps": [
-    "page.which-online-service",
-    "page.online-page",
-    "page.online-subject"
+    "page.which-online-service"
   ],
   "url": "online-service-or-page"
 }

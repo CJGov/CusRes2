@@ -1,0 +1,23 @@
+{
+  "_id": "page.start-comment-praise",
+  "_type": "page.form",
+  "actionType": "continue",
+  "body": "Continue to enter your comments, we will forward them to the right person.",
+  "enableSteps": true,
+  "heading": "Do you want us to respond to your comments?",
+  "lede": "We will take any comments that you make into consideration but we are not able to respond to them. If you want a response [make a formal complaint](https://hmcts-complaints.dev.form.service.justice.gov.uk/).",
+  "show": {
+    "identifier": "auto_name__1",
+    "negated": true,
+    "operator": "is",
+    "value": "complaint"
+  },
+  "steps": [
+    "page.how-contact-us",
+    "page.online-service-or-page",
+    "page.which-court",
+    "page.who-phoned",
+    "page.about-visit"
+  ],
+  "url": "start-comment-praise"
+}

@@ -9,20 +9,20 @@
         {
           "_id": "page.what-tell-us-about--radios.auto_name__1--radio.auto_value__1",
           "_type": "radio",
-          "label": "I’m happy with the service I got / I want to tell you somebody did a good job ",
-          "value": "happy"
+          "label": "I want to make a formal complaint",
+          "value": "complaint"
         },
         {
           "_id": "page.what-tell-us-about--radios.auto_name__1--radio.auto_value__2",
           "_type": "radio",
-          "label": "I have a suggestion on how you can improve something",
-          "value": "suggestion"
+          "label": "how can we improve",
+          "value": "comment"
         },
         {
           "_id": "page.what-tell-us-about--radios.auto_name__1--radio.auto_value__3",
           "_type": "radio",
-          "label": "I want to make a complaint",
-          "value": "complaint"
+          "label": "how well we did",
+          "value": "praise"
         }
       ],
       "legend": "What do you want to tell us about?",

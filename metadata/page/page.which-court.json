@@ -1,0 +1,37 @@
+{
+  "_id": "page.which-court",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.which-court--radios.auto_name__2",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.which-court--radios.auto_name__2--radio.auto_value__5",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.which-court--radios.auto_name__2--radio.auto_value__5--autocomplete.auto_name__11",
+            "_type": "autocomplete",
+            "hint": "Leave this blank if you don't remember the name of the court or tribunal",
+            "label": "Enter the court or tribunal",
+            "name": "auto_name__11",
+            "validation": {
+              "required": false
+            }
+          },
+          "label": "yes",
+          "value": "auto_value__5"
+        },
+        {
+          "_id": "page.which-court--radios.auto_name__2--radio.auto_value__5--2",
+          "_type": "radio",
+          "label": "no",
+          "value": "auto_value__5"
+        }
+      ],
+      "legend": "Did your contact with us involve a court or tribunal?",
+      "name": "auto_name__2"
+    }
+  ],
+  "url": "which-court"
+}

@@ -1,0 +1,54 @@
+{
+  "_id": "page.about-visit",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.about-visit--checkboxes",
+      "_type": "checkboxes",
+      "hint": "Select all that apply",
+      "items": [
+        {
+          "_id": "page.about-visit--checkboxes--checkbox.auto_name__4",
+          "_type": "checkbox",
+          "hint": "For example, the toilets, heating, wifi or disabled access.",
+          "label": "Facilities",
+          "name": "auto_name__4"
+        },
+        {
+          "_id": "page.about-visit--checkboxes--checkbox.auto_name__6",
+          "_type": "checkbox",
+          "hint": "How did we do?",
+          "label": "staff",
+          "name": "auto_name__6"
+        },
+        {
+          "_id": "page.about-visit--checkboxes--checkbox.auto_name__7",
+          "_type": "checkbox",
+          "hint": "How were you treated at main security, did you feel safe in the building?",
+          "label": "safety and security",
+          "name": "auto_name__7"
+        },
+        {
+          "_id": "page.about-visit--checkboxes--checkbox.auto_name__8",
+          "_type": "checkbox",
+          "hint": "For example, signs, maps and leaflets.",
+          "label": "information and guidance",
+          "name": "auto_name__8"
+        },
+        {
+          "_id": "page.about-visit--checkboxes--checkbox.auto_name__12",
+          "_type": "checkbox",
+          "label": "something else",
+          "name": "auto_name__12"
+        }
+      ],
+      "legend": "What do you want to tell us about your visit?"
+    }
+  ],
+  "show": {
+    "identifier": "auto_name__28",
+    "operator": "is",
+    "value": "auto_value__4"
+  },
+  "url": "about-visit"
+}

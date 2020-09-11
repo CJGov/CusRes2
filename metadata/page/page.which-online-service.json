@@ -37,7 +37,10 @@
             "_id": "page.which-online-service--radios.auto_name__38--radio.auto_value__3--5--text.auto_name__25",
             "_type": "text",
             "label": "Enter the online service you want to tell us about",
-            "name": "auto_name__25"
+            "name": "auto_name__25",
+            "validation": {
+              "required": false
+            }
           },
           "label": "Other",
           "value": "auto_value__3"
