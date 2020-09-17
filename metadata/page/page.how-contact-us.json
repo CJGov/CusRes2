@@ -43,11 +43,18 @@
           "value": "auto_value__6"
         }
       ],
-      "legend": "What type of contact did you have with us?",
+      "legend": "How did you contact us or how did we contact you?",
       "name": "auto_name__28"
     }
   ],
-  "enableSteps": false,
+  "enableSteps": true,
   "show": true,
+  "steps": [
+    "page.online-service-or-page",
+    "page.which-court",
+    "page.court-visited",
+    "page.who-phoned",
+    "page.about-visit"
+  ],
   "url": "how-contact-us"
 }

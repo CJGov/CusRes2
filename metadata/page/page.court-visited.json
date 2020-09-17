@@ -1,0 +1,19 @@
+{
+  "_id": "page.court-visited",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.court-visited--autocomplete.auto_name__18",
+      "_type": "autocomplete",
+      "hint": "Enter the court or tribunal you visited ",
+      "label": "Which court or tribunal did you visit?",
+      "name": "auto_name__18"
+    }
+  ],
+  "show": {
+    "identifier": "auto_name__28",
+    "operator": "is",
+    "value": "auto_value__4"
+  },
+  "url": "court-visited"
+}

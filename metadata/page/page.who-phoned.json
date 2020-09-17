@@ -12,7 +12,8 @@
           "$option": true,
           "_id": "page.who-phoned--radios.auto_name__5--radio.auto_value__3",
           "_type": "radio",
-          "label": "Money claims",
+          "hint": "Money claims, financial remedy, appealing a benefits decision.",
+          "label": "Money",
           "value": "money"
         },
         {
@@ -21,26 +22,9 @@
           "$option": true,
           "_id": "page.who-phoned--radios.auto_name__5--radio.auto_value__3--2",
           "_type": "radio",
-          "label": "Probate",
+          "hint": "Probate applications and disputes, divorce, ending a civil partnership.",
+          "label": "Probate, divorce, ending civil partnerships",
           "value": "deaths_marriages_civil_partnerships"
-        },
-        {
-          "$component": true,
-          "$definition": true,
-          "$option": true,
-          "_id": "page.who-phoned--radios.auto_name__5--radio.auto_value__3--3",
-          "_type": "radio",
-          "label": "Divorce",
-          "value": "childcare_and_parenting"
-        },
-        {
-          "$component": true,
-          "$definition": true,
-          "$option": true,
-          "_id": "page.who-phoned--radios.auto_name__5--radio.auto_value__3--4",
-          "_type": "radio",
-          "label": "Appealing a benefits decision",
-          "value": "harm_and_abuse"
         },
         {
           "$component": true,
@@ -48,6 +32,7 @@
           "$option": true,
           "_id": "page.who-phoned--radios.auto_name__5--radio.auto_value__3--5",
           "_type": "radio",
+          "hint": "Seeking asylum, right to live in the UK, and appealing deportation.",
           "label": "Immigration and asylum",
           "value": "immigration_and_asylum"
         },
@@ -57,6 +42,7 @@
           "$option": true,
           "_id": "page.who-phoned--radios.auto_name__5--radio.auto_value__3--6",
           "_type": "radio",
+          "hint": "Cases heard at a Crown or Magistrates’ Court.",
           "label": "Crime",
           "value": "crime"
         },
@@ -64,32 +50,24 @@
           "$component": true,
           "$definition": true,
           "$option": true,
-          "_id": "page.who-phoned--radios.auto_name__5--radio.auto_value__3--8",
-          "_type": "radio",
-          "label": "Single Justice Service",
-          "value": "not listed"
-        },
-        {
-          "_id": "page.who-phoned--radios.auto_name__5--radio.auto_value__2",
-          "_type": "radio",
-          "label": "Financial remedy",
-          "value": "auto_value__2"
-        },
-        {
           "_id": "page.who-phoned--radios.auto_name__5--radio.auto_value__4",
           "_type": "radio",
-          "label": "Family Public Law",
+          "label": "Childcare and parenting",
           "value": "auto_value__4"
         },
         {
-          "_id": "page.who-phoned--radios.auto_name__5--radio.auto_value__4--2",
-          "_type": "radio",
-          "label": "Audio or video hearings",
-          "value": "auto_value__4"
-        },
-        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.who-phoned--radios.auto_name__5--radio.auto_value__4--3",
           "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.who-phoned--radios.auto_name__5--radio.auto_value__4--3--text.auto_name__20",
+            "_type": "text",
+            "hint": "Leave this blank if you don't remember the phone number",
+            "label": "Enter the phone number you called",
+            "name": "auto_name__20"
+          },
           "label": "It's not listed here",
           "value": "auto_value__4"
         }
@@ -98,10 +76,16 @@
       "name": "auto_name__5"
     }
   ],
+  "enableSteps": true,
   "show": {
     "identifier": "auto_name__28",
     "operator": "is",
     "value": "auto_value__3"
   },
+  "steps": [
+    "page.phone-money",
+    "page.phone-death-divorce-cp",
+    "page.phone-crime"
+  ],
   "url": "who-phoned"
 }

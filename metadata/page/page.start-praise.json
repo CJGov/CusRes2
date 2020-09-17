@@ -1,0 +1,13 @@
+{
+  "_id": "page.start-praise",
+  "_type": "page.content",
+  "body": "Continue to enter your comments, we will forward them to the right person.",
+  "heading": "We cannot respond to your praise",
+  "lede": "We will take any comments that you make into consideration but we are not able to respond to them.",
+  "show": {
+    "identifier": "auto_name__1",
+    "operator": "is",
+    "value": "praise"
+  },
+  "url": "start-praise"
+}

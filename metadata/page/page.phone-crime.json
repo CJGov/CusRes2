@@ -1,0 +1,32 @@
+{
+  "_id": "page.phone-crime",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.phone-crime--radios.auto_name__22",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.phone-crime--radios.auto_name__22--radio.auto_value__4",
+          "_type": "radio",
+          "label": "Single justice procedure",
+          "value": "auto_value__4"
+        },
+        {
+          "_id": "page.phone-crime--radios.auto_name__22--radio.auto_value__4--2",
+          "_type": "radio",
+          "label": "Not single justice procedure",
+          "value": "auto_value__4"
+        }
+      ],
+      "legend": "What do you want to tell us about your call about crime? ",
+      "name": "auto_name__22"
+    }
+  ],
+  "show": {
+    "identifier": "auto_name__5",
+    "operator": "is",
+    "value": "crime"
+  },
+  "url": "phone-crime"
+}

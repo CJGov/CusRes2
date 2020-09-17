@@ -33,5 +33,21 @@
       "name": "auto_name__2"
     }
   ],
+  "show": {
+    "all": [
+      {
+        "identifier": "auto_name__28",
+        "negated": true,
+        "operator": "is",
+        "value": "auto_value__4"
+      },
+      {
+        "identifier": "auto_name__28",
+        "negated": true,
+        "operator": "is",
+        "value": "auto_value__6"
+      }
+    ]
+  },
   "url": "which-court"
 }

@@ -1,0 +1,44 @@
+{
+  "_id": "page.phone-money",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.phone-money--radios.auto_name__19",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.phone-money--radios.auto_name__19--radio.auto_value__4",
+          "_type": "radio",
+          "label": "Money claims",
+          "value": "auto_value__4"
+        },
+        {
+          "_id": "page.phone-money--radios.auto_name__19--radio.auto_value__4--2",
+          "_type": "radio",
+          "label": "Probate",
+          "value": "auto_value__4"
+        },
+        {
+          "_id": "page.phone-money--radios.auto_name__19--radio.auto_value__4--3",
+          "_type": "radio",
+          "label": "Appealing a benefits decision",
+          "value": "auto_value__4"
+        },
+        {
+          "_id": "page.phone-money--radios.auto_name__19--radio.auto_value__4--4",
+          "_type": "radio",
+          "label": "Financial remedy",
+          "value": "auto_value__4"
+        }
+      ],
+      "legend": "What do you want to tell us about your call about money?",
+      "name": "auto_name__19"
+    }
+  ],
+  "show": {
+    "identifier": "auto_name__5",
+    "operator": "is",
+    "value": "money"
+  },
+  "url": "phone-money"
+}
