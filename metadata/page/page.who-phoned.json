@@ -52,6 +52,7 @@
           "$option": true,
           "_id": "page.who-phoned--radios.auto_name__5--radio.auto_value__4",
           "_type": "radio",
+          "hint": "Children in care and child protection orders.",
           "label": "Childcare and parenting",
           "value": "auto_value__4"
         },
@@ -85,7 +86,8 @@
   "steps": [
     "page.phone-money",
     "page.phone-death-divorce-cp",
-    "page.phone-crime"
+    "page.phone-crime",
+    "page.about-phone"
   ],
   "url": "who-phoned"
 }

@@ -1,0 +1,41 @@
+{
+  "_id": "page.about-phone",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.about-phone--checkboxes",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.about-phone--checkboxes--checkbox.auto_name__23",
+          "_type": "checkbox",
+          "hint": "How did we do?",
+          "label": "Staff",
+          "name": "auto_name__23"
+        },
+        {
+          "_id": "page.about-phone--checkboxes--checkbox.auto_name__26",
+          "_type": "checkbox",
+          "hint": "Was the information provided correct and useful?",
+          "label": "Information and guidance",
+          "name": "auto_name__26"
+        },
+        {
+          "_id": "page.about-phone--checkboxes--checkbox.auto_name__27",
+          "_type": "checkbox",
+          "hint": "Was the process smooth or were there issues?",
+          "label": "The process",
+          "name": "auto_name__27"
+        },
+        {
+          "_id": "page.about-phone--checkboxes--checkbox.auto_name__29",
+          "_type": "checkbox",
+          "label": "Something else",
+          "name": "auto_name__29"
+        }
+      ],
+      "legend": "What do you want to tell us about your phone call?"
+    }
+  ],
+  "url": "about-phone"
+}

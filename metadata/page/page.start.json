@@ -1,7 +1,7 @@
 {
   "_id": "page.start",
   "_type": "page.start",
-  "body": "We want to know about your experience at court – good and bad.\r\n\r\n*something you want to complain about\r\n* how we can improve\r\n*  where we got it right\r\n\r\nYour feedback will not affect a court case.",
+  "body": "We want to know about your experience at court – good and bad.\r\n\r\n* something you want to complain about\r\n* how we can improve\r\n*  where we got it right\r\n\r\nYour feedback will not affect a court case.",
   "heading": "Customer responses",
   "steps": [
     "page.what-tell-us-about",

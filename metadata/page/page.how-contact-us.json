@@ -54,7 +54,8 @@
     "page.which-court",
     "page.court-visited",
     "page.who-phoned",
-    "page.about-visit"
+    "page.about-visit",
+    "page.about-email-letter-docs"
   ],
   "url": "how-contact-us"
 }
