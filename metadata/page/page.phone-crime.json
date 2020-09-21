@@ -9,13 +9,15 @@
         {
           "_id": "page.phone-crime--radios.auto_name__22--radio.auto_value__4",
           "_type": "radio",
-          "label": "Single justice procedure",
+          "hint": "TV licence fines, speeding or parking fines.",
+          "label": "Minor criminal offences",
           "value": "auto_value__4"
         },
         {
           "_id": "page.phone-crime--radios.auto_name__22--radio.auto_value__4--2",
           "_type": "radio",
-          "label": "Not single justice procedure",
+          "hint": "Major criminal cases at a Crown or Magistrates’ Court.",
+          "label": "Major criminal offences",
           "value": "auto_value__4"
         }
       ],

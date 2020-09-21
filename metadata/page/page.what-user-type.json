@@ -7,45 +7,61 @@
       "_type": "radios",
       "items": [
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.what-user-type--radios.auto_name__10--radio.auto_value__1",
           "_type": "radio",
           "label": "I'm a witness",
           "value": "auto_value__3"
         },
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.what-user-type--radios.auto_name__10--radio.auto_value__2",
           "_type": "radio",
           "label": "I'm doing jury service",
           "value": "auto_value__3"
         },
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.what-user-type--radios.auto_name__10--radio.auto_value__3",
           "_type": "radio",
           "label": "I'm involved in a case",
           "value": "auto_value__3"
         },
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.what-user-type--radios.auto_name__10--radio.auto_value__4",
           "_type": "radio",
           "label": "I'm with someone involved in a case",
           "value": "auto_value__3"
         },
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.what-user-type--radios.auto_name__10--radio.auto_value__5",
           "_type": "radio",
           "label": "I'm a legal professional",
           "value": "auto_value__3"
         },
         {
-          "_id": "page.what-user-type--radios.auto_name__10--radio.auto_value__6",
-          "_type": "radio",
-          "label": "I'm staff at a court or tribunal",
-          "value": "auto_value__3"
-        },
-        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.what-user-type--radios.auto_name__10--radio.auto_value__3--2",
           "_type": "radio",
           "conditionalComponent": {
+            "$component": true,
+            "$control": true,
+            "$definition": true,
+            "$field": true,
             "_id": "page.what-user-type--radios.auto_name__10--radio.auto_value__3--2--text.auto_name__24",
             "_type": "text",
             "label": "Enter another reason",
