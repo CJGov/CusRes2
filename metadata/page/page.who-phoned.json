@@ -67,7 +67,10 @@
             "_type": "text",
             "hint": "Leave this blank if you don't remember the phone number",
             "label": "Enter the phone number you called",
-            "name": "auto_name__20"
+            "name": "auto_name__20",
+            "validation": {
+              "required": false
+            }
           },
           "label": "It's not listed here",
           "value": "auto_value__4"
