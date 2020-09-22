@@ -5,6 +5,7 @@
     {
       "_id": "page.about-email-letter-docs--checkboxes",
       "_type": "checkboxes",
+      "hint": "Select all that apply",
       "items": [
         {
           "_id": "page.about-email-letter-docs--checkboxes--checkbox.auto_name__31",
