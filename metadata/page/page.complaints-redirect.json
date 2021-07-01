@@ -1,0 +1,15 @@
+{
+  "_id": "page.complaints-redirect",
+  "_type": "page.content",
+  "heading": "Make a complaint about a court or tribunal",
+  "show": {
+    "all": [
+      {
+        "identifier": "tell-us-how-we-are-doing",
+        "operator": "is",
+        "value": "Complaints"
+      }
+    ]
+  },
+  "url": "complaints-redirect"
+}

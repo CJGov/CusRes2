@@ -1,0 +1,54 @@
+{
+  "_id": "page.tell-us-about-your-phone-call",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.tell-us-about-your-phone-call--checkboxes",
+      "_type": "checkboxes",
+      "hint": "Select all that apply",
+      "items": [
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.tell-us-about-your-phone-call--checkboxes--checkbox.auto_name__7",
+          "_type": "checkbox",
+          "hint": "How did we do?",
+          "label": "Staff",
+          "name": "auto_name__7"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.tell-us-about-your-phone-call--checkboxes--checkbox.auto_name__8",
+          "_type": "checkbox",
+          "hint": "Was the information provided correct and useful?",
+          "label": "Information and guidance",
+          "name": "auto_name__8"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.tell-us-about-your-phone-call--checkboxes--checkbox.auto_name__12",
+          "_type": "checkbox",
+          "hint": "Was the process smooth or were there issues?",
+          "label": "The process",
+          "name": "auto_name__12"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.tell-us-about-your-phone-call--checkboxes--checkbox.auto_name__13",
+          "_type": "checkbox",
+          "label": "Something else",
+          "name": "auto_name__13"
+        }
+      ],
+      "legend": "What do you want to tell us about your email, letter or documents?"
+    }
+  ],
+  "url": "tell-us-about-your-email"
+}

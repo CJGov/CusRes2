@@ -1,0 +1,40 @@
+{
+  "_id": "page.comments-compliments-complaints",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.comments-compliments-complaints--radios.auto_name__14",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.comments-compliments-complaints--radios.auto_name__14--radio.auto_value__1",
+          "_type": "radio",
+          "hint": "i have a suggestion on how you can improve something",
+          "label": "Comments",
+          "value": "Comments"
+        },
+        {
+          "_id": "page.comments-compliments-complaints--radios.auto_name__14--radio.auto_value__3",
+          "_type": "radio",
+          "hint": "i want to make a complaint",
+          "label": "Complaints",
+          "value": "Complaints"
+        },
+        {
+          "_id": "page.comments-compliments-complaints--radios.auto_name__14--radio.auto_value__3--2",
+          "_type": "radio",
+          "hint": "i'm happy with the service i got/ i want to tell you somebody did good job",
+          "label": "Compliments",
+          "value": "Compliments"
+        }
+      ],
+      "name": "tell-us-how-we-are-doing"
+    }
+  ],
+  "enableSteps": true,
+  "heading": "We'd like you to tell us how we're doing",
+  "steps": [
+    "page.complaints-redirect"
+  ],
+  "url": "comments-compliments-complaints"
+}

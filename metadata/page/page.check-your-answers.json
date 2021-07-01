@@ -1,6 +1,8 @@
 {
   "_id": "page.check-your-answers",
   "_type": "page.summary",
-  "actionType": "confirm",
+  "actionType": "custom-1",
+  "sendBody": "To send this feedback please click the button below",
+  "sendHeading": "Send us your feedback",
   "url": "check-your-answers"
 }

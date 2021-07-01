@@ -5,13 +5,8 @@
   "heading": "Customer responses",
   "steps": [
     "page.what-tell-us-about",
-    "page.complaint-start",
-    "page.start-comment-praise",
-    "page.start-praise",
-    "page.how-contact-us",
-    "page.more-information",
     "page.what-user-type",
-    "page.someone-special",
+    "page.how-contact-us",
     "page.check-your-answers",
     "page.thank-you"
   ],

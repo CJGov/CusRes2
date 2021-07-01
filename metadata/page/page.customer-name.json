@@ -39,6 +39,7 @@
       }
     }
   ],
+  "enableSteps": true,
   "heading": "Your details",
   "lede": "If you are happy for us to contact you for more information, please enter your details. We will not share your details with anyone else.",
   "url": "customer-name"

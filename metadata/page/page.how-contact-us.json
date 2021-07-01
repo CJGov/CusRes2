@@ -50,12 +50,10 @@
   "enableSteps": true,
   "show": true,
   "steps": [
-    "page.online-service-or-page",
     "page.which-court",
     "page.court-visited",
-    "page.who-phoned",
-    "page.about-visit",
-    "page.about-email-letter-docs"
+    "page.about-email-letter-docs",
+    "page.phone-call"
   ],
   "url": "how-contact-us"
 }
