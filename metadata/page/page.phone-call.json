@@ -5,7 +5,7 @@
     {
       "_id": "page.phone-call--autocomplete.auto_name__5",
       "_type": "autocomplete",
-      "hint": "Enter the court or tribunal you visited",
+      "hint": "Enter the court or tribunal you contacted",
       "items": [
         {
           "_id": "court_code__default",

@@ -5,7 +5,7 @@
     {
       "_id": "page.about-email-letter-docs--autocomplete.auto_name__4",
       "_type": "autocomplete",
-      "hint": "Enter the court or tribunal you visited",
+      "hint": "Enter the court or tribunal you contacted",
       "items": [
         {
           "_id": "court_code__default",

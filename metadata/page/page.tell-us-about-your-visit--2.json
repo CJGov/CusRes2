@@ -45,5 +45,7 @@
       "legend": "What do you want to tell us about your visit?"
     }
   ],
+  "enableSteps": true,
+  "show": false,
   "url": "tell-us-about-your-visit"
 }

@@ -7,7 +7,10 @@
       "_type": "text",
       "hint": "Who did you talk to on your call?",
       "label": "We'd like to pass on your feedback to the right person",
-      "name": "auto_name__31"
+      "name": "auto_name__31",
+      "validation": {
+        "required": false
+      }
     }
   ],
   "url": "right-person-phone"

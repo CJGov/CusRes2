@@ -3547,10 +3547,26 @@
           "_type": "option",
           "text": "York Magistrates' Court",
           "value": "10395"
+        },
+        {
+          "_id": "page.court-visited--autocomplete.auto_name__18--option",
+          "_type": "option",
+          "value": "which court"
+        },
+        {
+          "_id": "page.court-visited--autocomplete.auto_name__18--option--2",
+          "_type": "option"
+        },
+        {
+          "_id": "page.court-visited--autocomplete.auto_name__18--option--3",
+          "_type": "option"
         }
       ],
       "label": "Which court or tribunal did you visit?",
-      "name": "auto_name__18"
+      "name": "auto_name__18",
+      "validation": {
+        "required": false
+      }
     }
   ],
   "enableSteps": true,

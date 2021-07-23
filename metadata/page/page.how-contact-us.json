@@ -50,7 +50,6 @@
   "enableSteps": true,
   "show": true,
   "steps": [
-    "page.which-court",
     "page.court-visited",
     "page.about-email-letter-docs",
     "page.phone-call"

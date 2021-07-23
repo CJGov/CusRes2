@@ -7,7 +7,10 @@
       "_type": "text",
       "hint": "Who did you speak when you visited us? (optional)",
       "label": "We'd like to pass on your feedback to the right person.",
-      "name": "auto_name__6"
+      "name": "auto_name__6",
+      "validation": {
+        "required": false
+      }
     }
   ],
   "url": "right-person-visit"
