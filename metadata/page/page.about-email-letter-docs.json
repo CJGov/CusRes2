@@ -3550,7 +3550,8 @@
         }
       ],
       "label": "Which court or tribunal did you write to or get your letter from?",
-      "name": "letter"
+      "name": "letter",
+      "showNoOptionsFound": false
     }
   ],
   "enableSteps": true,

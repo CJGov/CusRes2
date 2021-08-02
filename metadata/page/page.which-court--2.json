@@ -1,9 +1,9 @@
 {
-  "_id": "page.which-court",
+  "_id": "page.which-court--2",
   "_type": "page.singlequestion",
   "components": [
     {
-      "_id": "page.which-court--radios.auto_name__2",
+      "_id": "page.which-court--2--radios.auto_name__2",
       "_type": "radios",
       "items": [
         {
@@ -3573,24 +3573,9 @@
         }
       ],
       "legend": "Did your contact with us involve a court or tribunal?",
-      "name": "auto_name__2"
+      "name": "auto_name__2",
+      "show": false
     }
   ],
-  "show": {
-    "all": [
-      {
-        "identifier": "auto_name__28",
-        "negated": true,
-        "operator": "is",
-        "value": "auto_value__4"
-      },
-      {
-        "identifier": "auto_name__28",
-        "negated": true,
-        "operator": "is",
-        "value": "auto_value__6"
-      }
-    ]
-  },
-  "url": "which-court"
+  "url": "which-court-2"
 }

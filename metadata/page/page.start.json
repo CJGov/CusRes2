@@ -5,7 +5,8 @@
   "heading": "Customer responses",
   "steps": [
     "page.what-tell-us-about",
-    "page.what-user-type",
+    "page.which-court--2",
+    "page.court-visited--2",
     "page.how-contact-us",
     "page.check-your-answers",
     "page.thank-you"
